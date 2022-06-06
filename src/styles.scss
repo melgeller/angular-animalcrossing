@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Zilla Slab', serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/patter2.png);
+    background-size:auto;
+    background-attachment: fixed;
+}

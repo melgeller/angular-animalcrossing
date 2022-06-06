@@ -1,0 +1,31 @@
+nav{
+    background-color: rgba(255, 255, 255, 0.185);
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    & ul{
+        height: 6vw;
+        background-color: rgba(255, 255, 255, 0.185);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-size: x-large;
+        & li{
+            margin: 30px;
+            :hover{
+                border-bottom:3px solid rgb(228, 177, 110);
+            }
+        }
+    }
+    & img{
+        position: absolute;
+        width: 90px;
+        margin-left: 30px;
+        margin-top: 5px;
+        filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-2px 2px 0 white)
+        drop-shadow(2px -2px 0 white)
+        drop-shadow(-2px -2px 0 white);
+    }
+}

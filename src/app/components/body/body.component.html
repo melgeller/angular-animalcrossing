@@ -1,0 +1,16 @@
+<body>
+    <article class="galleria">
+        <ul>
+            <li *ngFor="let villager of villagerInfo.villagers">
+                <figure>
+                    <p class = "main">{{villager.name}}</p>
+                    <img src={{villager.image.src}} alt="{{villager.image.alt}}">
+                    <p>{{villager.species}}</p>
+                    <p>{{villager.personality}}</p>
+                    <p>{{villager.birthday}}</p>
+                </figure>
+
+            </li>
+        </ul>
+    </article>
+</body>
